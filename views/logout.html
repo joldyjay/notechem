@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block m %}
+	<p>正在登出...</p>
+    <script type="text/javascript">
+        setTimeout(function(){
+            window.location.href = "/";
+        }, 500);
+    </script>
+{% endblock %}

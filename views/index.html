@@ -1,0 +1,64 @@
+{% extends "base.html"%}
+{% block title %}NoteChem化学贸易平台{% endblock %}
+{% block m %}
+    {{message}}
+    <div class="jb-header" id="content" tabindex="-1">
+        <div class="container topi">
+            <div class="l col-lg-6">
+                <h2>NoteChem等你的到来！</h2>
+                <ul>
+                    <li>您的外贸专家</li>
+                    <li>NoteChem为你赢得商机</li>
+                    <li>产品推广，我们的责任！</li>
+                    <li>NoteChem为你赢得商机！</li>
+                </ul>
+            </div>
+            <div class="r col-lg-6">
+                <h2>您的外贸专家！</h2>
+                <ul>
+                    <li>免费注册账户：快速获得NoteChem账户，零门槛。</li>
+                    <li>免费发布产品：产品免费发布，帮你补全产品信息。</li>
+                    <li>免费海外推广：只需发布产品，推广交给我们。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="search col-lg-7">
+                <div class="s_log"><img width="300px" src="images/notechem_search.png"></div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default btn-danger" type="button">搜索</button>
+                        <button class="btn btn-default btn-primary" type="button">结构式搜索</button>
+                    </span>
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        </div>
+
+    </div>
+    <div id="amArea" class="amArea">
+        <div class="content-wrapper">
+            <div class="image1 image-wrapper animated"></div>
+            <div class="text-wrapper" type="right">
+                <h2 class="" style="visibility: visible; opacity: 1; transform: translateX(0px);">最佳实践</h2>
+                <p style="max-width: 310px; visibility: visible; opacity: 1; transform: translateX(0px);" class="">近一年的中后台设计实践，积累了大量的优秀案例。</p>
+                <div class="" style="visibility: visible; opacity: 1; transform: translateX(0px);">
+                    <a href="">
+                        <button type="button" class="ant-btn ant-btn-primary ant-btn-lg"><span>了解更多</span><i class=" anticon anticon-right"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="joldy"></div>
+{% endblock %}
+{% block sc %}
+    <script type="text/babel">
+        React.render(
+            <h1>Hello, world!</h1>,
+                document.getElementById('joldy')
+        );
+    </script>
+{% endblock %}

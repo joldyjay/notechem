@@ -1,0 +1,173 @@
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.seperate {
+  margin-top: 10px;
+}
+.center {
+  text-align: center;
+}
+a {
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.logo {
+  padding: 5px 0;
+}
+.topi {
+  font-size: 20px;
+}
+.topi .l,
+.topi .r {
+  float: left;
+}
+.topi .l ul li,
+.topi .r ul li {
+  list-style-type: none;
+}
+.topi .l {
+  min-height: 200px;
+  border-right: 1px #efefef solid;
+}
+.reg .m,
+.log .m {
+  padding: 10px 30px;
+}
+.reg .m .code,
+.log .m .code {
+  width: 50%!important;
+}
+.reg .m .verify,
+.log .m .verify {
+  margin: 0 0 0 10px;
+  padding: 2px 0;
+}
+.reg .m label,
+.log .m label {
+  position: absolute;
+  width: 100%;
+}
+.reg .panel-heading p,
+.log .panel-heading p {
+  margin: 0;
+}
+.search {
+  margin: 0px auto;
+  float: none;
+}
+.search .s_log {
+  text-align: center;
+  padding: 10px 0;
+}
+.search .s_log img {
+  margin: 0px auto;
+  float: none;
+}
+.alert {
+  margin-bottom: 0px;
+}
+.personInfo .piTitle p {
+  padding: 15px;
+}
+.personInfo .piList dl {
+  float: left;
+  width: 100%;
+}
+.personInfo .piList dl dt {
+  float: left;
+  width: 15%;
+}
+.personInfo .piList dl dd {
+  float: left;
+  width: 85%;
+}
+.personInfo .piList dl dd input {
+  width: 400px;
+}
+.a1 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.a2 {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+.ant-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.5;
+  padding: 4px 15px;
+  font-size: 12px;
+  border-radius: 6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  color: #666;
+  background-color: #f7f7f7;
+  border-color: #d9d9d9;
+}
+.ant-btn-primary {
+  color: #fff;
+  background-color: #2db7f5;
+  border-color: #2db7f5;
+}
+.ant-btn-lg {
+  padding: 4px 15px 5px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.amArea {
+  width: 100%;
+  float: left;
+}
+.amArea .content-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  background: #fff;
+  min-height: 700px;
+}
+.amArea .content-wrapper .image-wrapper {
+  width: 65%;
+  float: left;
+  position: relative;
+}
+.amArea .content-wrapper .image1 {
+  background: url("/images/image1.png") no-repeat 0.11890606%;
+  height: 511px;
+  opacity: 0;
+}
+.amArea .content-wrapper .text-wrapper p {
+  margin: 10px 0 20px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #999;
+}
+.amArea .text-wrapper {
+  width: 33%;
+  float: left;
+  position: relative;
+  top: 20%;
+  left: 10px;
+}
+/*# sourceMappingURL=main.css.map */

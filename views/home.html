@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block title%} {{title}} {% endblock %}
+{% block m %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="personInfo">
+                    <h4>
+                        <span class='glyphicon glyphicon-book'></span>
+                        个人信息
+                    </h4>
+                    <div class="piTitle">
+                        <p class="bg-info">请完善公司信息，以便于用户更好的对您进行了解，以及更好的进行自我推广！</p>
+                    </div>
+                    <form id="piFrom" action="" method="post" onsubmit="return false;">
+                        <div class="piList">
+                            <dl>
+                                <dt>登陆账号：</dt>
+                                <dd>joldy</dd>
+                            </dl>
+                            <dl>
+                                <dt>注册邮箱：</dt>
+                                <dd>asd</dd>
+                            </dl>
+                            <dl>
+                                <dt>公司名称：</dt>
+                                <dd><input id="id_companynamezh" class="form-control" name="companynamezh" maxlength="255" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>公司名称（英文：</dt>
+                                <dd><input id="id_scompanynameen" class="form-control" name="companynameen" maxlength="255" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>邮编：</dt>
+                                <dd><input id="id_zipcode" class="form-control" name="zipcode" maxlength="20" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>联系人：</dt>
+                                <dd><input id="id_contactzh" class="form-control" name="contactzh" maxlength="50" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>联系人（英文）：</dt>
+                                <dd><input id="id_contacten" class="form-control" name="contacten" maxlength="50" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>电话：</dt>
+                                <dd><input id="id_tel" class="form-control" name="tel" maxlength="255" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>传真：</dt>
+                                <dd><input id="id_fax" class="form-control" name="fax" maxlength="255" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>QQ：</dt>
+                                <dd><input id="id_qq" class="form-control" name="qq" maxlength="50" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>MSN：</dt>
+                                <dd><input id="id_msn" class="form-control" name="msn" maxlength="100" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>网址：</dt>
+                                <dd><input id="id_website" class="form-control" name="website" maxlength="255" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>通信地址：</dt>
+                                <dd><input id="id_addresszh" class="form-control" name="addresszh" maxlength="255" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>通信地址（英文）：</dt>
+                                <dd><input id="id_addressen" class="form-control" name="addressen" maxlength="255" type="text"></dd>
+                            </dl>
+                            <dl>
+                                <dt>公司简介：</dt>
+                                <dd><textarea cols="40" class="form-control" id="id_profilezh" name="profilezh" rows="10"></textarea></dd>
+                            </dl>
+                            <dl>
+                                <dt>公司简介（英文）：</dt>
+                                <dd><textarea cols="40" class="form-control" id="id_profileen" name="profileen" rows="10"></textarea></dd>
+                            </dl>
+                        </div>
+                        <div class="center"><button type="submit" class="save-btn btn btn-primary">提交信息</button></div>
+                    </form>
+                    <!--<h3>Your name:   {{user.accountname}}</h3>-->
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="">
+                    <h4>
+                        <span class='glyphicon glyphicon-list'></span>
+                        用户菜单```````````````````````````````
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block sc%}
+<script type="text/javascript" src="js/jquery.form.js"></script>
+{% endblock %}
+

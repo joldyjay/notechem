@@ -1,0 +1,18 @@
+{% extends "baseA.html" %}
+{% block m %}
+<div class="container">
+    <form action="admin/manage" method="post">
+        <p>
+            <span>userId:</span>
+            <br>
+            <input id="userid" class="userid" name="userid" type="text">
+        </p>
+        <p>
+            <span>password:</span>
+            <br>
+            <input id="password" class="pwd" name="password" type="password">
+        </p>
+        <p><input class="login-btn" type="submit" value="submit"></p>
+    </form>
+</div>
+{% endblock %}
